@@ -16,7 +16,6 @@ function App() {
       const data = await response.json();
       setUsers(data);
       setIsLoading(false);
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
