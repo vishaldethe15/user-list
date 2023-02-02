@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&family=Quicksand:wght@500;600;700&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+html,
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  color: #343a40;
+}
+
+i {
+  font-size: 1.8rem;
+  color: #343a40;
+}
+
+label {
+  font-size: 1.1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 1.1rem;
+  background-color: #4361ee;
+  color: #ffffff;
+}
+
+.items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  background: #ddd;
+  padding: 1.5rem;
+}
+
+.items-container .item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem;
+}
+.items-container .item .wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.items-container .item .elements {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.items-container .item .info {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 0.2rem;
+}
+.items-container .item .info > * {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pagination {
+  display: inline-flex;
+}
+
+.pagination a {
+  color: #343a40;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination a:focus {
+  background-color: #4361ee;
+  color: #ffffff;
+}
+
+.items-container .item .details {
+  border: 1px solid #343a40;
+  border-radius: 0.5rem 0.5rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
